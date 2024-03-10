@@ -1,0 +1,106 @@
+{
+  "bot-account": {
+    "username": "benranoah1@outlook.com",
+    "password": ".p0CU6uPY7&.",
+    "type": "microsoft"
+  },
+
+  "server": {
+    "ip": "skykingdoms.net",
+    "version": "1.8.9"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 279,
+    "y": 101,
+    "z": -242
+  },
+
+  "guard": {
+    "enabled": false,
+    "position": {
+      "x": 292,
+      "y": 85,
+      "z": -222
+    }
+  },
+
+  "pvp": {
+    "auto-totem":{
+      "enabled": false
+    },
+    "auto-armor": false
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": "mohamed55ab"
+    },
+
+    "anti-afk": {
+      "enabled": false,
+      "sneak": false,
+      "jump": false,
+      "rotate": false,
+
+      "hit": {
+        "enabled": false,
+        "delay": 500,
+        "attack-mobs": false
+      },
+
+      "walk": {
+        "enabled": false,
+        "mode": {
+          "random":{
+            "time": 1000
+          },
+          "circle":{
+            "radius": 5
+          },
+          "square":{
+            "radius": 5
+          },
+          "rhombus":{
+            "radius": 5
+          }},
+        "selected": "random"
+      }
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 600,
+
+      "messages": [
+        "/skypvp"
+      ]
+    },
+
+    "respawn-chat": {
+      "enabled": false,
+      "delay": 1000,
+      "chat": ["Respawn", "text", "..."]
+    },
+
+    "auto-eat": {
+      "enabled": false,
+      "eat-at": 16,
+      "no-eat": ["golden_apple", "enchanted_golden_apple"]
+    },
+
+    "webinv": {
+      "enabled": false,
+      "port": 4001
+    },
+
+    "auto-sleep": false,  
+    "mes-log": false,
+    "console-chat": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 60
+  }
+}
