@@ -76,7 +76,8 @@
       "repeat-delay": 600,
 
       "messages": [
-        "/skypvp"
+        "/skypvp",
+        "/blocks"
       ]
     },
 
